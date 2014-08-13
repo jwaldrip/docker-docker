@@ -5,7 +5,7 @@
 ## Usage
 
 ```ruby
-docker run --net="host" jwaldrip/docker ps
+docker run -v /var/run/docker.sock:/var/run/docker.sock jwaldrip/docker ps
 ```
 
 ***fin***
